@@ -68,6 +68,9 @@ public class UI {
             System.out.println("WHITE");
             System.out.print(ANSI_RESET);
         }
+        if(chessMatch.getCheck()) {
+            System.out.println("CHECK!");
+        }
     }
 
     public static void printBoard(ChessPiece[][] pieces) {
